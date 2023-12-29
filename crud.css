@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(45deg, lightblue, skyblue, white, lightblue, skyblue);
+}
+
+.container {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#table {
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px 5px 10px 5px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px 5px 3px 5px;
+    background-color: white;
+}
+
+#thead {
+    text-align: center;
+    height: 40px;
+    background: linear-gradient(45deg, white, orange, darkorange, orange, white);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 5px;
+    border: 1px solid black;
+}
+
+th {
+    font-weight: 700;
+    background-color: rgb(94, 92, 92);
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px 5px 3px 5px;
+}
+
+#fetch-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+#new {
+    width: 150px;
+    color: orangered;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 5px grey;
+    margin-right: 10px;
+    background-color: white;
+    animation: addnew 1s;
+}
+
+#forms,
+#uform {
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 350px;
+    height: 470px;
+    background-color: orange;
+    margin-top: 70px;
+    margin-left: 550px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    padding-top: 15px;
+}
+
+#fname,
+#email,
+#mobile,
+#gender,
+#stateDropdown,
+#email,
+#update_name,
+#update_email,
+#update_mobile,
+#update_gender,
+#update_stateDropdown {
+    margin-bottom: 15px;
+    margin-left: 25px;
+    width: 300px;
+    border-style: none;
+    padding: 3px 3px 3px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.foot {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#submit,
+#update {
+    width: 70px;
+    color: orangered;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#formhead {
+    width: 200px;
+    margin: 0px 0px 20px 75px;
+    text-align: center;
+}
+
+#fname_error,
+#email_error,
+#mobile_error,
+#updated_name_error,
+#updated_email_error,
+#updated_mobile_error {
+    color: red;
+    font-size: small;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#updatebutton {
+    border-style: none;
+    padding: 3px 3px 3px 3px;
+    background-color: green;
+    color: white;
+}
+
+#updatecell {
+    background: linear-gradient(45deg, green, white, green);
+}
+
+#deletebutton {
+    border-style: none;
+    padding: 3px 3px 3px 3px;
+    background-color: red;
+    color: white;
+}
+
+#deletecell {
+    background: linear-gradient(45deg, red, white, red);
+}
